@@ -1,7 +1,8 @@
 aliases:
     fleeks: cd ~/.local/share/fleek
 bling: default
-blocklist: []
+blocklist:
+    - vscode
 byo_git: false
 ejected: false
 flakedir: .local/share/fleek
