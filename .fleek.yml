@@ -16,7 +16,6 @@ name: Fleek Configuration
 overlays: {}
 packages:
     - helix
-    - fish
 paths:
     - $HOME/bin
     - $HOME/.local/bin
