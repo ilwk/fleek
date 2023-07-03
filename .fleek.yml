@@ -18,6 +18,7 @@ packages:
     - helix
     - nodejs
     - zsh
+    - fnm
 paths:
     - $HOME/bin
     - $HOME/.local/bin
