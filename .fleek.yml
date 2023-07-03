@@ -16,13 +16,12 @@ name: Fleek Configuration
 overlays: {}
 packages:
     - helix
-    - nodejs
 paths:
     - $HOME/bin
     - $HOME/.local/bin
 programs:
     - dircolors
-shell: zsh
+shell: bash
 systems:
     - arch: x86_64
       hostname: RBP15S
