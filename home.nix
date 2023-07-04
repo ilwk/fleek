@@ -22,6 +22,7 @@
     pkgs.helix
     pkgs.nodejs
     pkgs.zsh
+    pkgs.zplug
     # Fleek Bling
     pkgs.git
     pkgs.htop
