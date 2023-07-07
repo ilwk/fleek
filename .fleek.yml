@@ -19,7 +19,7 @@ packages:
     - nodejs
     - zsh
     - zplug
-    - pkgs.nodePackages.pnpm
+    - nodePackages.pnpm
 paths:
     - $HOME/bin
     - $HOME/.local/bin

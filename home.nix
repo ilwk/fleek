@@ -23,7 +23,7 @@
     pkgs.nodejs
     pkgs.zsh
     pkgs.zplug
-    pkgs.pkgs.nodePackages.pnpm
+    pkgs.nodePackages.pnpm
     # Fleek Bling
     pkgs.git
     pkgs.htop
