@@ -1,9 +1,9 @@
 { pkgs, misc, ... }: {
   # FEEL FREE TO EDIT: This file is NOT managed by fleek. 
   programs.bash = {
-    initExtra = "zsh";
+    initExtra = "zsh\ncd ~";
   };
-  
+
   programs.zsh = {
     enable = true;
 
