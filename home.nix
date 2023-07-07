@@ -21,9 +21,9 @@
     # user selected packages
     pkgs.helix
     pkgs.nodejs
+    pkgs.nodePackages.pnpm
     pkgs.zsh
     pkgs.zplug
-    pkgs.nodePackages.pnpm
     # Fleek Bling
     pkgs.git
     pkgs.htop

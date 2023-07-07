@@ -17,9 +17,9 @@ overlays: {}
 packages:
     - helix
     - nodejs
+    - nodePackages.pnpm
     - zsh
     - zplug
-    - nodePackages.pnpm
 paths:
     - $HOME/bin
     - $HOME/.local/bin
