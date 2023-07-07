@@ -26,7 +26,7 @@ paths:
 programs:
     - dircolors
     - zsh
-shell: zsh
+shell: bash
 systems:
     - arch: x86_64
       hostname: RBP15S
