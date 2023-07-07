@@ -6,7 +6,8 @@
     zplug = {
       enable = true;
       plugins = [
-        { name = "zsh-users/zsh-autosuggestions"; } # Simple plugin installation
+        { name = "zsh-users/zsh-autosuggestions"; }
+        { name = "zsh-users/zsh-syntax-highlighting"; }
       ];
     };
   };
