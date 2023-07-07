@@ -26,7 +26,7 @@ paths:
 programs:
     - dircolors
     - starship
-shell: bash
+shell: zsh
 systems:
     - arch: x86_64
       hostname: RBP15S
