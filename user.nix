@@ -3,6 +3,7 @@
   programs.bash = {
     initExtra = "zsh";
   };
+  
   programs.zsh = {
     enable = true;
 
