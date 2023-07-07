@@ -25,7 +25,6 @@ paths:
     - $HOME/.local/bin
 programs:
     - dircolors
-    - starship
 shell: zsh
 systems:
     - arch: x86_64
