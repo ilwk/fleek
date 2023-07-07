@@ -3,10 +3,11 @@
   programs.zsh = {
     enable = true;
 
-    oh-my-zsh = {
+    zplug = {
       enable = true;
-      plugins = [ "git" "thefuck" ];
-      theme = "robbyrussell";
+      plugins = [
+        { name = "zsh-users/zsh-autosuggestions"; } # Simple plugin installation
+      ];
     };
   };
  
