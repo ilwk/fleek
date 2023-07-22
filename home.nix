@@ -24,6 +24,7 @@
     pkgs.nodePackages.pnpm
     pkgs.zsh
     pkgs.zplug
+    pkgs.micro
     # Fleek Bling
     pkgs.git
     pkgs.htop
