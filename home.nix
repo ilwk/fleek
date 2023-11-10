@@ -9,6 +9,7 @@
       # Workaround for https://github.com/nix-community/home-manager/issues/2942
       allowUnfreePredicate = (_: true);
       
+      
     };
   };
 
@@ -32,6 +33,7 @@
     pkgs.glab
     pkgs.fzf
     pkgs.ripgrep
+    pkgs.just
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
   fonts.fontconfig.enable = true; 
