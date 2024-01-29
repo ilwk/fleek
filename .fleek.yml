@@ -32,7 +32,6 @@ paths:
 programs:
   - dircolors
   - zsh
-  - helix
 shell: bash
 systems:
   - arch: x86_64

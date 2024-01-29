@@ -14,7 +14,6 @@
 
   # User specified programs 
     programs.dircolors.enable = true; 
-    programs.zsh.enable = true; 
-    programs.helix.enable = true;
+    programs.zsh.enable = true;
 
 }
