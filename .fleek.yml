@@ -1,5 +1,7 @@
 aliases:
     fleeks: cd ~/.local/share/fleek
+    latest-fleek-version: nix run https://getfleek.dev/latest.tar.gz -- version
+    update-fleek: nix run https://getfleek.dev/latest.tar.gz -- update
 allow_broken: false
 auto_gc: false
 bling: default
@@ -45,9 +47,4 @@ systems:
       username: wsl
 track: nixos-unstable
 unfree: true
-users:
-    - email: vet3x@outlook.com
-      name: vet3x
-      ssh_private_key_file: ~/.ssh/id_ed25519
-      ssh_public_key_file: ~/.ssh/id_ed25519.pub
-      username: wsl
+users: []
