@@ -30,7 +30,6 @@
     pkgs.git
     pkgs.htop
     pkgs.github-cli
-    pkgs.glab
     pkgs.fzf
     pkgs.ripgrep
     pkgs.just

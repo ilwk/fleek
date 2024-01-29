@@ -1,50 +1,51 @@
 aliases:
-    fleeks: cd ~/.local/share/fleek
-    latest-fleek-version: nix run https://getfleek.dev/latest.tar.gz -- version
-    update-fleek: nix run https://getfleek.dev/latest.tar.gz -- update
+  fleeks: cd ~/.local/share/fleek
+  latest-fleek-version: nix run https://getfleek.dev/latest.tar.gz -- version
+  update-fleek: nix run https://getfleek.dev/latest.tar.gz -- update
 allow_broken: false
 auto_gc: false
 bling: default
 blocklist:
-    - vscode
+  - vscode
+  - glab
 byo_git: false
 ejected: false
 flakedir: .local/share/fleek
 git:
-    autocommit: true
-    autopull: true
-    autopush: true
-    enabled: true
+  autocommit: true
+  autopull: true
+  autopush: true
+  enabled: true
 min_version: 0.8.4
 name: Fleek Configuration
 overlays: {}
 packages:
-    - helix
-    - nodejs
-    - nodePackages.pnpm
-    - zsh
-    - zplug
-    - micro
+  - helix
+  - nodejs
+  - nodePackages.pnpm
+  - zsh
+  - zplug
+  - micro
 paths:
-    - $HOME/bin
-    - $HOME/.local/bin
+  - $HOME/bin
+  - $HOME/.local/bin
 programs:
-    - dircolors
-    - zsh
-    - helix
+  - dircolors
+  - zsh
+  - helix
 shell: bash
 systems:
-    - arch: x86_64
-      home: ""
-      hostname: RBP15S
-      os: linux
-      user:
-        email: vet3x@outlook.com
-        name: vet3x
-        ssh_private_key_file: ~/.ssh/id_ed25519
-        ssh_public_key_file: ~/.ssh/id_ed25519.pub
-        username: wsl
+  - arch: x86_64
+    home: ''
+    hostname: RBP15S
+    os: linux
+    user:
+      email: vet3x@outlook.com
+      name: vet3x
+      ssh_private_key_file: ~/.ssh/id_ed25519
+      ssh_public_key_file: ~/.ssh/id_ed25519.pub
       username: wsl
+    username: wsl
 track: nixos-unstable
 unfree: true
 users: []
